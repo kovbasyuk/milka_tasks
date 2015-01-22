@@ -1,0 +1,54 @@
+﻿?<!DOCTYPE html>
+<html>
+<head>
+	<meta charset "UTF-8">
+	<title>task5 Колбасюк))</title>
+	<style>
+	     input:checked + span {
+		background: #fc0;
+	   }
+  </style>
+</head>
+<body>
+ <form action="task5.html" method="get">
+		<p>
+			<input name="name" required placeholder="Ти хто?"> &nbsp <input name="surname" required placeholder="Ти чий?">
+		</p>
+		<p>
+			<input name="job" placeholder="Де ти шаришся?"> &nbsp <b>Ким буш?</b>
+			<select name="Posada">
+				<option value="Rak">Геній</option>
+				<option value="Donate">Баран</option>
+				<option value="Daddy">Просто шарюсь</option>
+			<select>
+		</p>
+		<p>
+			<i><u><b>Ваша стать</b></u></i><br>
+			<input type="radio" name="sex" value="male">Хлоп
+			<input type="radio" name="sex" value="female">Баба
+			<input type="radio" name="sex" value="doxtor">Ще не визначився(лася)!
+		</p>
+		<p>
+			Черкани пару слів: <br>
+			<textarea name="comment" placeholder="от тут малюй" maxlength="140" cols="48" rows="3"></textarea>
+		</p>
+		<p>
+		<b>Логін:</b><br>
+			<input required maxlength="25" size="25" name="login" placeholder="Всім розказуй"><br>
+		</p>
+		<p>
+			<b>Пароль:</b><br>
+			<input required type="password" maxlength="50" size="15" name="password" placeholder="Ні кому не розказуй">
+		</p>
+		<p>
+			<strong>Ти довіряєш мені свої</strong> <b>персональні дані</b>
+			<input type="radio" name="accepted" value="y" required> <span>А є варіанти.</span>
+			<input type="radio" name="accepted" value="n"> <span>Ага ща розігнався!</span>
+		</p>
+		<p>
+		<input type="reset" value="Та ну нафіг">
+		<input type="submit" value="Та фіг з ним">
+		</p>
+	</form>
+</body>
+</html>
