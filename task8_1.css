@@ -1,0 +1,30 @@
+   header, footer {
+                 width:90%; background-color:#424B5F; color:#fff; text-align:center; padding:200px;
+				 }
+	h2 {
+	    text-align: center;
+		}
+   table { 
+     border-spacing: 0px;
+     width: 100%; /* Ўирина таблицы */
+     /* border: 4px double black; /* –амка вокруг таблицы */
+     /* border-collapse: collapse; /* ќтображать только одинарные линии */
+   }
+   th { 
+     text-align: left; /* ¬ыравнивание по левому краю */
+     background: green; /* ÷вет фона €чеек */
+     padding: 0px; /* ѕол€ вокруг содержимого €чеек */
+     /* border: 1px solid black; /* √раница вокруг €чеек */
+   }
+   td { 
+     /* padding: 5px; /* ѕол€ вокруг содержимого €чеек */
+     /* border: 1px solid black; /* √раница вокруг €чеек */
+	 text-align:center;
+	 
+	 }
+   tr:nth-child(odd) {
+   background: gray;
+   }
+   tr:nth-child(even) {
+   background: #e86d6d;
+   }
