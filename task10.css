@@ -1,0 +1,29 @@
+body {min-height: 100%; font-size: 1.2em; color:#34495e; font-family:Arial, sans-serif;}
+header, article, aside, footer {display:block; float:left;}
+header, footer {width:100%; background-color:#424B5F; color:#fff; text-align:center; padding:20px 0;}
+article {width:65%; min-height:500px;}
+aside {width:35%; min-height:500px;}
+h1 {font-size:32px; font-weight: 100; padding:10px; text-align:left;}
+h2 {font-size:24px; color:#424B5F; text-align:center; padding:20px;}
+ol {margin:20px 50px; list-style-type: decimal;}
+ol{padding:7px;}
+
+/* content style */
+table tr td {padding:10px 0;}
+td:nth-child(1) {text-align: right; padding-right:20px;}
+
+form {margin:30px auto;}		
+.right {text-align:right;}
+.boxForm {width:750px; margin:0 auto;}
+.boxInput {width:300px; height: 50px;}
+.{background:red;}
+
+div .task10 {width:430px; margin:10px auto;}
+div .task10_1, div.task10_2, div.task10_3 {float:left; padding:5px;}
+
+div .task10_1 {width:50px; height: 50px; background-image: url(http://cs543103.vk.me/v543103513/38d/jpj21-KvvTY.jpg); background-size: 50px 50px;
+    background-repeat: no-repeat; margin-top:150px;}
+div .task10_2 {width:150px; height: 150px; background-image: url(http://cs543103.vk.me/v543103513/38d/jpj21-KvvTY.jpg); background-size: 150px 150px;
+    background-repeat: no-repeat; margin-top:50px;}
+div .task10_3 {width:200px; height:200px; background-image: url(http://cs543103.vk.me/v543103513/38d/jpj21-KvvTY.jpg); background-size:  200px 200px;
+    background-repeat: no-repeat;}

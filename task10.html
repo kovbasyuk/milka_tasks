@@ -3,15 +3,11 @@
 <head>
 	<meta charset "UTF-8">
 	<title>task5 Колбасюк))</title>
-	<style>
-	     input:checked + span {
-		background: #fc0;
-	   }
+	<link href="task10.css" rel="stylesheet">
   </style>
 </head>
-<body>
-<h1>Форма</h1>
- <form action="task5.html" method="get">
+<body> <h1>Форма</h1>
+ <form>
 		<p>
 			<input name="name" required placeholder="Ти хто?"> &nbsp <input name="surname" required placeholder="Ти чий?">
 		</p>
@@ -27,7 +23,7 @@
 			<i><u><b>Ваша стать</b></u></i><br>
 			<input type="radio" name="sex" value="male">Хлоп
 			<input type="radio" name="sex" value="female">Баба
-			<input type="radio" name="sex" value="doxtor">Ще не визначився(лася)!
+			<input type="radio" name="sex" value="doxtor" checked>Ще не визначився(лася)!
 		</p>
 		<p>
 			Черкани пару слів: <br>
@@ -44,12 +40,17 @@
 		<p>
 			<strong>Ти довіряєш мені свої</strong> <b>персональні дані</b>
 			<input type="radio" name="accepted" value="y" required> <span>А є варіанти.</span>
-			<input type="radio" name="accepted" value="n"> <span>Ага ща розігнався!</span>
+			<input type="radio" name="accepted" value="n" checked> <span>Ага ща розігнався!</span>
 		</p>
 		<p>
 		<input type="reset" value="Та ну нафіг">
 		<input type="submit" value="Та фіг з ним">
 		</p>
 	</form>
+	<div class="task10">
+	   <div class="task10_1"></div>
+	   <div class="task10_2"></div>
+	   <div class="task10_3"></div>
+</div>
 </body>
 </html>
