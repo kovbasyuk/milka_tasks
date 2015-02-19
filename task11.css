@@ -18,7 +18,7 @@ body{
 	height: calc(100% - 85px);
 	position: absolute;
 	top:60px;
-	background-color: #CDB79E;
+	background-color: #397896;
 	display:block;
 	
 }
@@ -28,7 +28,7 @@ body{
 	position: absolute;
 	top:60px;
 	left:25%;
-	background-color: #CCCCCC;
+	background-color: #f3ce7f;
 	text-align: center;
 	display:block;
 }
@@ -38,7 +38,7 @@ body{
 	position: absolute;
 	top: calc(60% + 60px); 
 	left:25%;
-	background-color: #CDB79E;
+	background-color: #397896;
 	display:block;
 }
 .block_right {
@@ -47,7 +47,7 @@ body{
 	position: absolute;
 	top:60px;
 	left:75%;
-	background-color: #CDB79E;
+	background-color: #397896;
 	overflow: scroll;
 	display:block;
 }
